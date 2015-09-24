@@ -202,7 +202,7 @@ gulp.task('precache', function (callback) {
 gulp.task('gh-pages', function() {
   return gulp.src('./dist/**/*')
     .pipe(ghPages({
-      remoteUrl: 'https://github.com/GDG-Ukraine/devfest.gdg.org.ua'
+      remoteUrl: 'git@github.com:njgdg/hoverboard.git'
     }));
 });
 

@@ -2,8 +2,8 @@
 <script>
     function trackPageview(path) { // jshint ignore:line
         /* jshint ignore:start */
-        ga('set', 'page', path);
-        ga('send', 'pageview');
+        // ga('set', 'page', path);
+        // ga('send', 'pageview');
         /* jshint ignore:end */
     }
 
@@ -62,6 +62,11 @@
         page('/code-of-conduct', function() {
             trackPageview('/code-of-conduct');
             app.route = 'code-of-conduct';
+            app.scrollToTop();
+        });
+
+        page('/partnership', function() {
+            app.route = 'partnership';
             app.scrollToTop();
         });
 

@@ -1,31 +1,21 @@
 [{
     "id": 1,
-    "name": "Said Tahsin Dane",
-    "company": "Startup Digest, Turkey",
+    "name": "徐飞(民工精髓)",
+    "company": "苏宁云商, 著名大牛",
     "photoUrl": "../../images/people/said_tahsine_dane.jpg"
 }, {
     "id": 2,
-    "name": "Mateusz Herych",
-    "company": "Base CRM, Poland",
+    "name": "李焱红",
+    "company": "扇贝网, 产品技术负责人",
     "photoUrl": "../../images/people/mateus_herych.jpg"
 }, {
     "id": 3,
-    "name": "Michał Tajchert",
-    "company": "12Hours.io, Poland",
+    "name": "褚福玺",
+    "company": "Lenove, 资深Android大牛",
     "photoUrl": "../../images/people/michal_tajchert.jpg"
 }, {
     "id": 4,
-    "name": "Yehor Lvivski",
-    "company": "Spatialkey, Ukraine",
+    "name": "杜鹏霄",
+    "company": "东软, Android 宗师级大牛",
     "photoUrl": "../../images/people/yehor_lvivski.jpg"
-}, {
-    "id": 5,
-    "name": "Valentyn Shybanov",
-    "company": "Twinfield, Ukraine",
-    "photoUrl": "../../images/people/valentyn_shybanov.jpg"
-}, {
-    "id": 6,
-    "name": "Mandy Waite",
-    "company": "Google, UK",
-    "photoUrl": "../../images/people/mandy_waite.jpg"
 }]

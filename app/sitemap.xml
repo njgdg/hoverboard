@@ -30,4 +30,8 @@
         <loc>http://devfest.gdg.org.ua/#!/code-of-conduct</loc>
         <priority>0.4</priority>
     </url>
+    <url>
+        <loc>http://devfest.gdg.org.ua/#!/partnership</loc>
+        <priority>0.3</priority>
+    </url>
 </urlset>

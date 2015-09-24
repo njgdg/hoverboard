@@ -1,55 +1,32 @@
 [
     {
-        "title": "General sponsor",
+        "title": "主要赞助方",
         "logos": [{
             "name": "Google",
             "url": "https://www.google.com.ua/intl/en/about/",
             "logoUrl": "../images/partners/google.svg"
         }]
     }, {
-        "title": "Platinum sponsor",
+        "title": "活动组织者",
         "logos": [{
-            "name": "N-IX",
+            "name": "南京GDG",
             "url": "http://n-ix.com/",
             "logoUrl": "../images/partners/n-ix.png"
         }]
     }, {
-        "title": "General partner",
+        "title": "渠道合作伙伴",
         "logos": [{
-            "name": "Lviv IT Cluster",
+            "name": "南京 36kr",
             "url": "http://itcluster.lviv.ua/",
             "logoUrl": "../images/partners/itcluster.png"
-        }]
-    }, {
-        "title": "Information partners",
-        "logos": [{
-            "name": "CoMMuna",
+        }, {
+            "name": "segmentfault",
             "url": "http://communa.net.ua/en/",
             "logoUrl": "../images/partners/communa.png"
         }, {
-            "name": "Symphony Solutions",
+            "name": "同学帮帮",
             "url": "http://www.symphony-solutions.eu/",
             "logoUrl": "../images/partners/symphony-solutions.png"
-        }, {
-            "name": "NETWORK",
-            "url": "http://network-ua.com/",
-            "logoUrl": "../images/partners/network.jpg"
-        }, {
-            "name": "career4it",
-            "url": "http://career4it.com/en/",
-            "logoUrl": "../images/partners/career4it.png"
-        }, {
-            "name": "LvivJs",
-            "url": "http://www.lvivjs.org.ua/",
-            "logoUrl": "../images/partners/lvivjs.png"
-        }, {
-            "name": "Hackraft",
-            "url": "http://hackraft.com/",
-            "logoUrl": "../images/partners/hackraft.svg"
-        }, {
-            "name": "Software Engineering 2015",
-            "url": "http://seconf.org.ua/",
-            "logoUrl": "../images/partners/se2015.png"
         }]
     }
 ]
