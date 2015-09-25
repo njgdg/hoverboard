@@ -57,11 +57,9 @@
                     <a data-route="#!/home" href="/">首页</a>
                     <a data-route="#!/blog" href="/blog">最新公告</a>
                     <a data-route="#!/speakers" href="/speakers">分享嘉宾</a>
-                    <!-- <a data-route="contact" href="/contact">Contact</a> -->
                 </paper-menu>
             </paper-header-panel>
             <div class="scroll" main>
-                <!-- Main Content -->
                 <div class="content">
                     <iron-pages attr-for-selected="data-route" selected="{{route}}">
                         <section data-route="home">
@@ -98,10 +96,8 @@
                             </featured-people>
                             <call-to-action></call-to-action>
                             <photo-block></photo-block>
-                            <!-- <tickets-block></tickets-block> -->
                             <latest-news source="../../data/blog.json"></latest-news>
-                            <!-- <social-feed source="http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=7200"></social-feed> -->
-                            <map-block></map-block>
+                            <map-block lng="118.778086" lat="32.053554" title="南京大学" address="汉口路118号"></map-block>
                             <logos-block source="../../data/partners.json">
                                 <h4 class="heading">合作嘉宾</h4>
                             </logos-block>
@@ -131,17 +127,6 @@
                             <people-block id="people-block" class="container-atop" source="../../data/speakers.json" sessions-source="../../data/sessions.json"></people-block>
                             <footer-block></footer-block>
                         </section>
-                        <!-- <section data-route="code-of-conduct">
-                            <hero-block class="section-shadow container-before-atop" style="background: #455A64; color: #fff;">
-                                <div class="top-section">
-                                    <div class="title-wrapper layout horizontal">
-                                        <h3 class="self-end">Code of Conduct</h3>
-                                    </div>
-                                </div>
-                            </hero-block>
-                            <cod-block class="container-atop" source="../../posts/code-of-conduct.markdown"></cod-block>
-                            <footer-block></footer-block>
-                        </section> -->
                         <section data-route="partnership">
                             <hero-block class="section-shadow container-before-atop" style="background: #455A64; color: #fff;">
                                 <div class="top-section">
@@ -153,22 +138,10 @@
                             <cod-block class="container-atop" source="../../posts/partnership.markdown"></cod-block>
                             <footer-block></footer-block>
                         </section>
-                        <!-- <section data-route="contact">
-                            <h1>Contact</h1>
-
-                            <footer-block></footer-block>
-                        </section> -->
                     </iron-pages>
                 </div>
             </div>
         </paper-drawer-panel>
-        <paper-toast id="caching-complete" duration="6000" text="Caching complete! This app will work offline.">
-        </paper-toast>
-        <platinum-sw-register auto-register clients-claim skip-waiting on-service-worker-installed="displayInstalledToast">
-            <platinum-sw-cache default-cache-strategy="networkFirst" precache-file="precache.json">
-            </platinum-sw-cache>
-        </platinum-sw-register>
-        <!-- <webfont-loader families="Roboto:100,400&subset=latin"></webfont-loader> -->
     </template>
     <!-- build:js scripts/app.js -->
     <script src="scripts/app.js"></script>
