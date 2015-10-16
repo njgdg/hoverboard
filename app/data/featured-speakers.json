@@ -1,17 +1,17 @@
 [{
     "id": 1,
-    "name": "徐飞(民工精髓)",
-    "company": "苏宁云商, 著名大牛",
-    "photoUrl": "../../images/people/said_tahsine_dane.jpg"
+    "name": "民工精髓",
+    "company": "徐飞，某宁救火队员",
+    "photoUrl": "../../images/people/xufei.jpeg"
 }, {
     "id": 2,
-    "name": "李焱红",
+    "name": "吴焱红",
     "company": "扇贝网, 产品技术负责人",
     "photoUrl": "../../images/people/mateus_herych.jpg"
 }, {
     "id": 3,
     "name": "褚福玺",
-    "company": "Lenove, 资深Android大牛",
+    "company": "联想, 资深Android大牛",
     "photoUrl": "../../images/people/michal_tajchert.jpg"
 }, {
     "id": 4,
