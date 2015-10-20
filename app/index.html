@@ -59,6 +59,8 @@
                     <a data-route="#!/home" href="/">首页</a>
                     <a data-route="#!/blog" href="/blog">最新公告</a>
                     <a data-route="#!/schedule" href="/schedule">大会日程</a>
+                    <a data-route="#!/about" href="/about">关于GDG</a>
+                    <a data-route="#!/lecturers" href="/lecturers">讲师介绍</a>
                 </paper-menu>
             </paper-header-panel>
 
@@ -73,15 +75,16 @@
                                         <div class="flex center-content-xs">
                                             <img class="logo" src="images/logo.svg" alt="GDG DevFest 2015">
                                             <p class="dates bold">2015年11月15日，楚翘城</p>
-                                            <p class="description">一年一度的南京互联网盛会，由南京GDG组织者倾力承办，Web、Android、Server、Design 各个方面的大牛与你面对面交流，还有 CodeLab 现场动手，免费茶歇！</p>
+                                            <p class="description">一年一度的南京互联网盛会，由南京GDG组织者倾力承办，Web、Android、Server、Design 各个方面的大牛与你面对面交流，还有 CodeLab 现场动手编程，免费茶歇！</p>
                                             <p class="slogan">雨花区安德门大街61号楚翘城4号楼2层</p>
                                             <div class="links layout horizontal align-pb-block">
-                                                <a href="/partnership">
+                                                <a href="/blog/call-for-speakers">
                                                     <paper-button noink>
                                                         我想成为分享者
                                                     </paper-button>
                                                 </a>
-                                                <a target="_blank" href="https://gdgdocs.org/forms/d/1ly-oAUpwLBP75uXCAEe4265BC07Scc-I0ge_cmmO5Cs/viewform?fbzx=7882340574252439896">
+                                                <!-- <a target="_blank" href="https://gdgdocs.org/forms/d/1ly-oAUpwLBP75uXCAEe4265BC07Scc-I0ge_cmmO5Cs/viewform?fbzx=7882340574252439896"> -->
+                                                <a target="_blank" onclick="alert('即将开放!')" href="javascript:;">
                                                     <paper-button class="colorful" raised>
                                                         免费报名
                                                     </paper-button>
@@ -98,7 +101,7 @@
                             <statistics-block></statistics-block>
 
                             <featured-people source="../../data/featured-speakers.json">
-                                <h4 class="heading">分享嘉宾</h4>
+                                <h4 class="heading">主要分享者</h4>
                             </featured-people>
 
                             <call-to-action></call-to-action>
@@ -145,11 +148,11 @@
                             <hero-block class="section-shadow container-before-atop" style="background: #455A64; color: #fff;">
                                 <div class="top-section">
                                     <div class="title-wrapper layout horizontal">
-                                        <h3 class="self-end">成为合作方</h3>
+                                        <h3 class="self-end">联系我们</h3>
                                     </div>
                                 </div>
                             </hero-block>
-                            <cod-block class="container-atop" source="../../posts/partnership.markdown"></cod-block>
+                            <cod-block class="container-atop" source="../../posts/partnership.md"></cod-block>
                             <footer-block></footer-block>
                         </section>
 
@@ -162,6 +165,30 @@
                                 </div>
                             </hero-block>
                             <cod-block class="container-atop" source="../../posts/schedule.md"></cod-block>
+                            <footer-block></footer-block>
+                        </section>
+
+                        <section data-route="lecturers">
+                            <hero-block class="section-shadow container-before-atop" style="background: #f66; color: #fff;">
+                                <div class="top-section">
+                                    <div class="title-wrapper layout horizontal">
+                                        <h3 class="self-end">主要分享者</h3>
+                                    </div>
+                                </div>
+                            </hero-block>
+                            <cod-block class="container-atop" source="../../posts/lecturers.md"></cod-block>
+                            <footer-block></footer-block>
+                        </section>
+
+                        <section data-route="about">
+                            <hero-block class="section-shadow container-before-atop" style="background: #0567A9; color: #fff;">
+                                <div class="top-section">
+                                    <div class="title-wrapper layout horizontal">
+                                        <h3 class="self-end">关于GDG</h3>
+                                    </div>
+                                </div>
+                            </hero-block>
+                            <cod-block class="container-atop" source="../../posts/about.md"></cod-block>
                             <footer-block></footer-block>
                         </section>
 

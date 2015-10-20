@@ -1,21 +1,21 @@
 [{
     "id": 1,
-    "name": "民工精髓",
-    "company": "徐飞，某宁救火队员",
+    "name": "徐飞",
+    "company": "苏宁云商，民工精髓，三流程序员，二流架构师",
     "photoUrl": "../../images/people/xufei.jpeg"
 }, {
     "id": 2,
-    "name": "吴焱红",
-    "company": "扇贝网, 产品技术负责人",
-    "photoUrl": "../../images/people/mateus_herych.jpg"
+    "name": "肖波",
+    "company": "百度, 上海研发中心移动客户端研发部架构师",
+    "photoUrl": "../../images/people/xb.png"
 }, {
     "id": 3,
-    "name": "褚福玺",
-    "company": "联想, 资深Android大牛",
-    "photoUrl": "../../images/people/michal_tajchert.jpg"
+    "name": "黎三平",
+    "company": "支付宝, 董炼师，支付宝钱包框架和组件化容器的主创者",
+    "photoUrl": "../../images/people/lsp.png"
 }, {
     "id": 4,
     "name": "杜鹏霄",
-    "company": "东软, Android 宗师级大牛",
-    "photoUrl": "../../images/people/yehor_lvivski.jpg"
+    "company": "GDG组织者, 连续创业者, 国内顶尖 Android 先行者",
+    "photoUrl": "../../images/people/dpx.jpg"
 }]

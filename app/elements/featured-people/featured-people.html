@@ -57,6 +57,11 @@
                 color: inherit;
                 font-size: .9em;
             }
+
+            a {
+                color: var(--default-primary-color);
+                font-size: 16px;
+            }
         </style>
         <iron-ajax auto url="[[source]]" handle-as="json" on-response="peopleLoaded"></iron-ajax>
         <div class="container text-center">
@@ -72,11 +77,8 @@
                     </div>
                 </template>
             </div>
-            <!-- <div>
-                <a data-route="speakers" href="#!/speakers" class="block-link">
-                    <paper-button>View all speakers</paper-button>
-                </a>
-            </div> -->
+            <br><br>
+            <p style="text-align:center"><a href="/lecturers">查看介绍</a></p>
         </div>
     </template>
 </dom-module>

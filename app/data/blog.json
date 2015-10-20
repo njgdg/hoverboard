@@ -1,18 +1,26 @@
 [
-  {
-    "id": 1,
-    "title": "南京 GDG DevFest 2015 即将开始",
-    "titleUrl": "devfest-2015-announced",
-    "posted": "2015年09月25日",
-    "file": "2015-08-17-devfest-2015-announced.markdown",
-    "brief": "在2014年，我们在南京大学举办了一次盛大且成功的南京GDG DevFest活动，与会嘉宾分享的内容都干货满满，涵盖设计、前端、安卓、开源等各个方面的技术，今天，南京 GDG DevFest 2015 即将到来，同样的精彩同样的干货，不用再犹豫了，赶紧加入我们！ － <a href='/'>南京 GDG DevFest 2015</a>"
-  },
-  {
-    "id": 2,
-    "title": "寻找分享者",
-    "titleUrl": "call-for-speakers",
-    "posted": "2015年09月24日",
-    "file": "2015-08-17-call-for-papers.markdown",
-    "brief": "无伦你是什么领域，无论是产品、技术、运营各个方面的分享，只要你想，我们就有可能提供给大家分享平台 - <a href='/'>南京 GDG DevFest 2015</a>."
-  }
+    {
+        "id": 1,
+        "title": "南京GDG及DevFest介绍",
+        "titleUrl": "devfest-2015-announced",
+        "posted": "2015-10-14",
+        "file": "about.md",
+        "brief": "谷歌开发者社区(GDG) 是面向对 Google 开发技术感兴趣的开发者的技术社区，支持各种产品和技术的学习和分享"
+    },
+    {
+        "id" : 0,
+        "title" : "GDG DevFest2015大会日程",
+        "titleUrl": "schedule",
+        "posted": "2015-10-14",
+        "file": "schedule.md",
+        "brief": "南京GDG DevFest2015大会日程安排及主题介绍，大会包括三大板块，主题分享、CodeLab、闪电演讲，详细日程请阅读文章"
+    },
+    {
+        "id": 2,
+        "title": "寻找分享者",
+        "titleUrl": "call-for-speakers",
+        "posted": "2015-10-14",
+        "file": "lookingfor.md",
+        "brief": "无伦你是什么领域，无论是产品、技术、运营各个方面的分享，只要你想，我们就有可能提供给大家分享平台"
+    }
 ]

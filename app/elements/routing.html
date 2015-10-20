@@ -75,6 +75,16 @@
             app.scrollToTop();
         });
 
+        page('/about', function() {
+            app.route = 'about';
+            app.scrollToTop();
+        });
+
+        page('/lecturers', function() {
+            app.route = 'lecturers';
+            app.scrollToTop();
+        });
+
         page({
             hashbang: true
         });
