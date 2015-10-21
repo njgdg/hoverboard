@@ -27,9 +27,7 @@
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild-->
-    <!-- build:js bower_components/webcomponentsjs/webcomponents-lite.min.js -->
-    <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
-    <!-- endbuild -->
+    <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
     <!-- will be replaced with elements/elements.vulcanized.html -->
     <link rel="import" href="elements/elements.html">
     <!-- endreplace-->
@@ -124,7 +122,6 @@
                                     <div class="title-wrapper layout horizontal">
                                         <h3 class="self-end">最新公告</h3>
                                     </div>
-                                    <!-- <paper-fab class="section-fab-right" icon="social:share"></paper-fab> -->
                                 </div>
                             </hero-block>
                             <blog-block id="blog" class="container-atop" source="../../data/blog.json"></blog-block>
@@ -137,10 +134,8 @@
                                     <div class="title-wrapper layout horizontal">
                                         <h3 class="self-end">Speakers</h3>
                                     </div>
-                                    <!-- <paper-fab class="section-fab-right" icon="social:share"></paper-fab> -->
                                 </div>
                             </hero-block>
-                            <people-block id="people-block" class="container-atop" source="../../data/speakers.json" sessions-source="../../data/sessions.json"></people-block>
                             <footer-block></footer-block>
                         </section>
 

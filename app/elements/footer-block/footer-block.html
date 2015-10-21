@@ -122,7 +122,7 @@
         <div class="container footer layout vertical">
             <div class="footer-content layout horizontal justified">
                 <div class="flex gplus">
-                    <g:plusone size="medium" width="200" annotation="inline" href="http://devfest.gdg.org.ua/"></g:plusone>
+
                 </div>
                 <paper-button class="footer-backtotop" on-tap="backToTop" noink>
                     回到顶部
@@ -152,34 +152,8 @@
                             <li><a href="/partnership">想要合作</a></li>
                         </ul>
                     </div>
-                    <!-- <div class="flex link-block-wrapper">
-                        <span class="link-block-title block">联系我们</span>
-                        <ul class="link-block">
-                            <li><a href="#">微博</a></li>
-                        </ul> -->
-                        <!-- <div class="icons-wrapper align-pb-block">
-                            <a href="https://plus.google.com/102444623953913144164" target="_blank">
-                                <paper-icon-button icon="app-icons:glus"></paper-icon-button>
-                            </a>
-                            <a href="https://www.facebook.com/GDGLviv" target="_blank">
-                                <paper-icon-button icon="app-icons:facebook"></paper-icon-button>
-                            </a>
-                            <a href="https://twitter.com/gdglviv" target="_blank">
-                                <paper-icon-button icon="app-icons:twitter"></paper-icon-button>
-                            </a>
-                            <a href="https://www.linkedin.com/company/google-developers-group-lviv" target="_blank">
-                                <paper-icon-button icon="app-icons:linkedin"></paper-icon-button>
-                            </a>
-                        </div> -->
-                    <!-- </div> -->
-                    <!-- <div class="flex">
-                        <span class="link-block-title block">Subscribe</span>
-                        <span>No spam, only the latest news and updates!</span>
-                        <mailchimp-subscribe url="{{url}}" name="{{name}}"></mailchimp-subscribe>
-                    </div> -->
                 </nav>
             </div>
-            <!-- <div class="line full-width"></div> -->
             <div class="footer-content footer-bottom layout vertical-horizontal justified">
                 <span class="flex self-center">
                     &copy; 2015 基于 <a href="https://github.com/gdg-x/hoverboard" target="_blank">Project Hoverboard</a>. 由 <a href="http://o.zasadnyy.com/" target="_blank">Oleh Zasadnyy</a> &middot;
@@ -199,19 +173,19 @@
     Polymer({
         is: 'footer-block',
         ready: function() {
-            this.url = 'http://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe';
-            this.name = 'b_b7e853a79164ddfdbda3ed77b_7993e39fbe';
+            // this.url = 'http://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe';
+            // this.name = 'b_b7e853a79164ddfdbda3ed77b_7993e39fbe';
         },
         backToTop: function() {
             app.scrollToTop();
         }
     });
-    (function() {
-        var po = document.createElement('script');
-        po.type = 'text/javascript';
-        po.async = true;
-        po.src = 'https://apis.google.com/js/platform.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(po, s);
-    })();
+    // (function() {
+    //     var po = document.createElement('script');
+    //     po.type = 'text/javascript';
+    //     po.async = true;
+    //     po.src = 'https://apis.google.com/js/platform.js';
+    //     var s = document.getElementsByTagName('script')[0];
+    //     s.parentNode.insertBefore(po, s);
+    // })();
 </script>

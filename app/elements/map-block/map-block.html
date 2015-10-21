@@ -116,13 +116,7 @@
                 animateEnable: false,
                 scrollWheel: false
             });
-            var marker = new AMap.Marker({
-                position: new AMap.LngLat(this.lng, this.lat),
-                title: this.title,
-                icon: '',
-                map: map
-            });
-            map.panTo(new AMap.LngLat(this.lng + 0.05, this.lat))
+            map.panTo(new AMap.LngLat(this.lng + 0.05, this.lat));
             return map;
         }
     });

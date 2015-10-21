@@ -60,7 +60,7 @@
             <template is="dom-repeat" items="[[posts]]" as="post">
                 <div class="card-wrapper layout horizontal">
                     <paper-material class="layout vertical">
-                        <div class="card-content">
+                        <div class="card-content" on-tap="readMore">
                             <span class="title block">[[post.title]]</span>
                             <span class="posted">发布于
                                 <span>[[post.posted]]</span>
